@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+html,
+body {
+  /* Adjust font size */
+  -webkit-text-size-adjust: 100%;
+  /* Font varient */
+  font-variant-ligatures: none;
+  -webkit-font-variant-ligatures: none;
+  /* Smoothing */
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+  font-family: "Lato", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Lato", sans-serif;
+}
+h1 {
+  font-size: 24px;
+  font-weight: 600;
+}
+html {
+  overflow-y: hidden;
+}
+/* Parent dashboard container */
+.dashboard-container {
+  position: relative;
+  height: 100vh;
+  /* min-height: 500px; */
+}
+/* Dashboard navbar */
+.dashboard-navbar {
+  position: absolute;
+  width: 100%;
+  height: 55px;
+  top: 0;
+  background: #fff;
+  box-shadow: 0px 2px 6px 1px #00000017;
+  z-index: 2;
+}
+.navbar-head-brand a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 20px;
+  color: #fff;
+}
+/* change the navbar title hover color */
+.navbar-head-brand a:hover {
+  color: #0063a2;
+}
+/* End dashboard navbar */
+
+/* Dashboard body */
+.dashboard-body {
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  bottom: 0;
+  z-index: 1;
+}
+.dashboard-body .wrapper {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: stretch;
+}
+
+/* sidebar starts */
+.dashboard-body .wrapper .sidebar {
+  position: relative;
+  width: 300px;
+  background-color: #35384d;
+  color: #fff;
+  transition: all 0.3s;
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.dashboard-body .wrapper .sidebar.active {
+  width: 70px;
+}
+.dashboard-body
+  .wrapper
+  .sidebar
+  .sidebar-menu
+  .list-group
+  .list-group-item.divider {
+  border-top: 1px solid #888;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  font-weight: 400;
+}
+.dashboard-body
+  .wrapper
+  .sidebar.active
+  .sidebar-menu
+  .list-group
+  .list-group-item
+  a
+  span {
+  display: none;
+}
+.dashboard-body .wrapper .sidebar .sidebar-top {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  /* change this bottom to get the exact side bar top content height  --------- this two values are to be changed according to your requirement */
+  bottom: 155px;
+}
+.dashboard-body .wrapper .sidebar .sidebar-bottom {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  /* change this height to get the exact side bar bottom content height  --------- this two values are to be changed according to your requirement */
+  height: 155px;
+}
+.dashboard-body .wrapper .sidebar .sidebar-menu {
+  margin-top: 5px;
+}
+.dashboard-body .wrapper .sidebar .sidebar-menu .list-group {
+  border: none;
+  background: transparent;
+}
+.dashboard-body .wrapper .sidebar .sidebar-menu .list-group .list-group-item {
+  border: none;
+  border-radius: 0px;
+  padding: 0px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 15px;
+  text-transform: capitalize;
+  background: transparent;
+  color: #fff;
+  width: 247px;
+  overflow: hidden;
+}
+.dashboard-body .wrapper .sidebar .sidebar-menu .list-group .list-group-item a {
+  display: block;
+  padding: 8px 0px 8px 25px;
+  text-decoration: none;
+  color: #fff;
+  border-left: 3px solid transparent;
+}
+.dashboard-body
+  .wrapper
+  .sidebar
+  .sidebar-menu
+  .list-group
+  .list-group-item
+  a
+  i {
+  width: 18px;
+  text-align: center;
+}
+.dashboard-body
+  .wrapper
+  .sidebar
+  .sidebar-menu
+  .list-group
+  .list-group-item
+  a.active {
+  border-left: 3px solid #fff;
+}
+.dashboard-body
+  .wrapper
+  .sidebar
+  .sidebar-menu
+  .list-group
+  .list-group-item:hover {
+  background-color: #202124;
+}
+.dashboard-body
+  .wrapper
+  .sidebar
+  .sidebar-menu
+  .list-group
+  .list-group-item:hover
+  a {
+  border-left: 3px solid #fff;
+}
+.dashboard-body
+  .wrapper
+  .sidebar
+  .sidebar-menu
+  .list-group
+  .list-group-item
+  span {
+  margin-left: 7px;
+  font-weight: 400;
+}
+/* sidebar ends */
+
+/* content starts */
+.dashboard-body .wrapper .content {
+  width: 100%;
+  transition: all 0.3s;
+  position: relative;
+  padding-top: 10px;
+  overflow-y: auto;
+}
+/* content ends */
+
+@media (max-width: 767px) {
+  .dashboard-body .wrapper {
+    display: block;
+  }
+  .dashboard-body .wrapper .sidebar {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 200;
+    width: 247px;
+  }
+  .dashboard-body .wrapper .sidebar.active {
+    width: 70px;
+  }
+  .dashboard-body .wrapper .content {
+    padding-left: 80px;
+  }
+  .dashboard-body
+    .wrapper
+    .sidebar
+    .sidebar-menu
+    .list-group
+    .list-group-item
+    a {
+    padding-left: 22px;
+  }
+  .dashboard-body .wrapper .content .content-heading-container .content-border {
+    width: 50%;
+  }
+  .navbar-pills-container ul li .btn {
+    padding: 5px 7px;
+  }
+  .date-from-item:last-child {
+    border-left: 1px solid #ccc;
+  }
+  .greater-than {
+    display: none;
+  }
+}
+/* End dashboard body */
+/* End parent dashboard container */

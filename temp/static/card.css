@@ -1,0 +1,247 @@
+.expo-img-strt {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  
+  .Exh-img img {
+    width: 100%;
+    height: 300px;
+    position: relative;
+  }
+  
+  .content.exhb-desc {
+    position: absolute;
+    top: 141px;
+    width: 100%;
+  }
+  
+  .exhb-description {
+    color: #ffffff;
+    font-size: 38px;
+    padding-left: 5%;
+    font-weight: 600;
+  }
+  
+  .explore-fshn-strt {
+    margin-top: 4%;
+    margin-bottom: 2%;
+  }
+  
+  .explore-all {
+    width: 674px;
+    height: 46px;
+    font-family: Unna;
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #35384d;
+  }
+  
+  .btn-popularity {
+    font-size: 13px;
+    font-weight: 500;
+    text-align: center;
+    color: #dd0c55;
+    background-color: white;
+    border-radius: 30px 0px 0px 30px;
+    border: 1px solid #bababd;
+    padding: 8px 23px;
+    cursor: pointer;
+  }
+  
+  .btn-date {
+    font-size: 13px;
+    text-align: center;
+    background-color: white;
+    border-radius: 0px 30px 30px 0px;
+    border: 1px solid #bababd;
+    padding: 8px 38px;
+    margin-left: 0px;
+    color: #35384d;
+    cursor: pointer;
+  }
+  
+  .expoevent-containers {
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  
+  .jbm-dashboard-links {
+    padding-left: 0px;
+    margin-bottom: 0px;
+  }
+  ul,
+  li {
+    list-style: none;
+  }
+  
+  .filtr-child-catgry {
+    display: block;
+    font-size: 14px;
+    color: #35384d;
+  }
+  
+  .filtr-child-nm {
+    margin-bottom: 4px;
+    font-size: 14px;
+  }
+  
+  .filter-heading {
+    font-size: 19px;
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+  
+  .filtr-prnt-catgry {
+    font-size: 17px;
+    font-weight: 600;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-bottom: 4px;
+  }
+  
+  .expo-info {
+    color: #35384d;
+    padding-top: 0px;
+  }
+  
+  .designerexhi {
+    font-size: 14px;
+    font-weight: bold;
+    color: #35384d;
+    text-overflow: ellipsis !important;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  
+  .expos-str-adrs {
+    padding-left: 0px;
+  }
+  
+  .div-pad {
+    padding: 8px 8px 0px 8px;
+    margin-right: -21px;
+  }
+  
+  .expo-lctn-adrss {
+    font-size: 11px;
+    margin-bottom: 4px !important;
+    padding-top: 3px;
+  }
+  
+  .expo-dte {
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  .expos-str-dt {
+    padding-left: 2px;
+  }
+  
+  .expo-lctn-date {
+    font-size: 12px;
+    padding-top: 5px;
+    margin-bottom: 7px;
+  }
+  
+  .likesspan {
+    position: absolute;
+    display: inline-flex;
+    background-color: #35384d;
+    padding: 5px 7px;
+    opacity: 0.8;
+    border-radius: 4px;
+    right: 4%;
+    top: 41%;
+  }
+  
+  .likeicon {
+    font-size: 16px;
+    margin-right: 9px;
+    position: relative;
+    top: 5px;
+    color: #fff;
+  }
+  
+  .likescount,
+  .interest {
+    color: white;
+    font-size: 11px;
+    margin-bottom: 0px;
+  }
+  
+  .newexpo-container {
+    background-color: #dd0c55;
+    margin-bottom: -3%;
+    /* padding:2%; */
+  }
+  
+  .newexpo-row {
+    padding: 2%;
+    /* text-align: center; */
+  }
+  
+  .addnew-expo {
+    font-family: Unna;
+    font-size: 39px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-right: 5%;
+    cursor: pointer;
+  }
+  
+  .looking {
+    display: flex;
+    margin-top: 17px;
+  }
+  
+  .lookingdiv {
+    font-size: 9px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #ffffff;
+    width: 100%;
+  }
+  
+  .listevent-colum {
+    padding-top: 2%;
+  }
+  
+  .buttondiv {
+    width: 100%;
+    margin-left: 2%;
+  }
+  
+  .btn-listevent {
+    border-radius: 4px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12);
+    background-color: #35384d;
+    font-size: 18px;
+    font-weight: bold;
+  
+    color: #ffffff;
+    padding: 1% 3%;
+    cursor: pointer;
+  }
+
+  .progress-container{
+    margin-top:3%;
+    
+    
+  }
+  .next-btn{
+    margin-top: 3%;
+    margin-left: 50%;
+   
+    border: solid 1px;
+    border-radius: 4px;
+
+  }
+  
